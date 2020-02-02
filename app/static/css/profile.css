@@ -1,51 +1,37 @@
 body {
-    padding-top: 5rem;
-	padding-left:auto;
-}
-/*
-body {
     padding-top: auto;
     
     
-}*/
+}
 
 .bar{
   display:flex;
- justify-content: center;
+  justify-content: center;
 }
 .bar div{
   margin: 3%;
 }
-/*
-.profile{
-	padding:0;
-	border: 0;
-	margin:0;
-}
-*/
+
+
+
 .profile .imgcontainer{
   background-color: #3cb65a;
     text-align: center;
     word-spacing: normal;
     line-height: 1.6;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
-.lowerp{
-	font-family: Arial, Helvetica, sans-serif;
-}
 img{
   border-radius: 50%;
 }
 
 button {
-
+  padding: 1px;
   color: white;
   background-color: #3cb65a;
   text-align: center;
   width: 25%;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .imgcontainer img{

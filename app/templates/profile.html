@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+
+<div class="profile">
+  <div class="imgcontainer">
+	<!--	<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}"> */ -->
+      <img src="{{ url_for('static', filename='uploads/pic_trulli.png')}}"  alt="profilepic" style="width:15%;height:35%;">
+      
+	  <br><br>
+	  <p><b> Trish Ramdeen </b></p>
+    <p>IG: trishramdeenmonelal <br> Kingston, Jamaica <br> Joined {{startdate}}</p>
+  </div>
+
+  <div class="lowerp">
+    
+    <p><center>
+	I am a smart and talented young woman who loves website
+	design and development. Contact me if you'd like
+	to work together on a new project.
+	
+	</center></p>
+    <div class= "bar">
+      <div class= "post">
+        <p class="stats">7</p>
+        <p>Posts</p>
+      </div>
+       <div class= "following">
+          <p class="stats">100</p>
+          <p>Following</p>
+        </div>
+        <div class= "followers">
+            <p class="stats">250</p>
+            <p>Followers</p>
+        </div>
+    </div>
+    <center><button>Follow</button></center>
+  </div>
+</div>
+
+
+
+{% endblock %}
